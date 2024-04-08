@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(160, 218, 247);
+}
+
+#quiz {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d2f4f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+#options {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(223, 223, 221);
+    color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit{
+    background-color: rgb(175, 175, 249);
+    /* align-items: center; */
+}
+
+#submit-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#submit:hover{
+    background-color: rgb(200, 200, 300);
+}
+
+button:hover {
+    background-color: #8f8d8d;
+}
+
+button.selected {
+    border: 2px solid green;
+}
+
+.feedback-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.feedback-container h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feedback-container ul{
+    margin: 10px;
+}
+
+.total-score{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-container button{
+    display: flex;
+    justify-content: center;
+}
+
+.exit-button {
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+.exit-button button{
+    background-color: #fbb1c1;
+}
+
+.exit-button button:hover {
+    background-color: #f75a7c;
+}
+       
+.feedback-container h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+}
+
+.feedback-container ul {
+            list-style-type: none;
+            padding: 0;
+}
+
+.feedback-container li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+}
+
+.feedback-container strong {
+            font-weight: bold;
+}
+

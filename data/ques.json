@@ -1,0 +1,60 @@
+{ "qna": [
+
+    {
+        "question":"Node.js is written in which language?",
+        "options":["C++","Javascript","Java","C"],
+        "answer":"Javascript"
+    
+    } ,
+    {
+        "question":"What is the full form of REPL?",
+        "options":["Read Eval Print Loop","Research Eval program Learn","Read Earn Point Learn","Read Eval Point Loop"],
+        "answer":"Read Eval Print Loop"
+    
+    } ,
+    {
+        "question":"---is an interactive shell that processes Node.",
+        "options":["REPL","REAL","RESP","None of the above"],
+        "answer":"REPL"
+    
+    } , 
+    {
+        "question":"Which of the following are exmaples of node modules?",
+        "options":["Express","Body-parser","Socket.io","All of the above"],
+        "answer":"All of the above"
+    
+    } ,  
+    {
+        "question":"To include the HTTP server in the node module, what function do we use?",
+        "options":["get","require","createServer","None of the above"],
+        "answer":"require"
+    
+    } ,
+    {
+        "question": "Which of the following is used to handle asynchronous operations in Node.js?",
+        "options": ["Promises", "Callbacks", "Async Await", "All of the above"],
+        "answer": "All of the above"
+    } 
+    ,
+    {
+        "question": "What is the primary purpose of the npm init command?",
+        "options": ["To initialize a Git repository", "To create a new Node.js project", "To install Node.js modules", "To uninstall Node.js modules"],
+        "answer": "To create a new Node.js project"   
+        } ,
+    {
+      "question": "Which package manager is commonly used with Node.js?",
+      "options": ["npm", "pip", "yarn", "composer"],
+      "answer": "npm"
+    } ,
+    {
+        "question": "What is the latest LTS version of Node.js as of 2022?",
+        "options": ["10.x", "12.x", "14.x", "16.x"],
+        "answer": "14.x"
+    },
+    {
+        "question": "What does npm stand for?",
+        "options": ["Node Package Manager", "Node Project Manager", "Node Package Module", "Node Project Module"],
+        "answer": "Node Package Manager"
+    }
+    ]
+}    

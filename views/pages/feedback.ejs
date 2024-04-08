@@ -1,0 +1,30 @@
+<!-- feedback.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Test has been submitted successfully</h2>
+        <h2>Quiz Feedback</h2>
+        <ul>
+            <% quizData.forEach((question, index) => { %>
+                <li>
+                    <p><strong>Question <%= index + 1 %>:</strong> <%= question.question %></p>
+                    <p><strong>Your Answer:</strong> <%= resultArray[index] %></p>
+                    <p><strong>Correct Answer:</strong> <%= question.answer %></p>
+                </li>
+            <% }); %>
+        </ul>
+        <p class="total-score"><strong>Total Score:</strong> <%= result %></p>
+        <div class="exit-button">
+            <button>Exit Window</button>
+        </div>
+    </div>
+</body>
+</html>

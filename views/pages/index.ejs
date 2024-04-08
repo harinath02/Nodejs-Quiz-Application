@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="container">
+
+<main>
+  <div class="jumbotron">
+    <h1>Node js Quiz</h1>
+    <p>To attempt all the questions are mondatory</p>
+    <ul>
+        <% qna.forEach(ques => { %> 
+        <li> Question: <%= ques.question %><br> 
+             Options: <%= ques.options.join(', ') %><br>
+             Correct Ans:<%= ques.ans %>
+        </li>
+        <% }) %>
+    </ul>
+  </div>
+</main>
+
+
+</body>
+</html>
