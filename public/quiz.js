@@ -73,7 +73,13 @@ function showResult() {
 
 function goToNextQuestion() {
     currentQuestion++;
-    if (currentQuestion < quizData.length) {
+    // backButton.style.display='block';
+
+    if (currentQuestion == quizData.length-1){
+        nextButton.innerHTML= "Submit";
+        showQuestion();
+    }
+    else if (currentQuestion < quizData.length) {
         showQuestion();
     } else {
         sendResultsToBackend();
