@@ -88,7 +88,7 @@ function goToPreviousQuestion() {
     }
 }
 
-submitButton.addEventListener("click", goToNextQuestion);
+// submitButton.addEventListener("click", goToNextQuestion);
 backButton.addEventListener("click", goToPreviousQuestion);
 nextButton.addEventListener("click", goToNextQuestion);
 
